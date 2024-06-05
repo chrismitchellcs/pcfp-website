@@ -2,16 +2,15 @@ import React from "react";
 import TitleImage from "../components/home/TitleImage";
 
 import GeneralInfo from "components/home/GeneralInfo";
-import Products from "components/home/Products";
+
 import ZigZag from "components/home/ZigZag";
 import InfoBoxes from "components/home/InfoBoxes";
-import NavBarTrans from "components/general/NavBarTrans";
-import NavBar from "components/general/NavBar";
+
 import HideAppBar from "components/general/HideAppBar";
-import ElevateAppBar from "components/general/ElevateAppBar";
+
 import ProductInfos from "components/home/ProductInfos";
-import BerriFresh from "components/home/BerriFresh";
 import Footer from "components/general/Footer";
+import BerriFresh from "components/home/BerriFresh";
 
 const Home = () => {
   return (

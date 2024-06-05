@@ -16,12 +16,12 @@ const ZigZag = ({ image, title, desc, direction }) => {
         }}
       >
         <Box width={"80%"}>
-          <Box sx={{ fontSize: "34px", color: "#375072", m: 3 }}>{title}</Box>
+          <Box sx={{ fontSize: "28px", color: "#375072", m: 3 }}>{title}</Box>
           <Box
             sx={{
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "300",
-              lineHeight: "1.5",
+              lineHeight: "1.6",
             }}
           >
             {desc}
@@ -29,7 +29,7 @@ const ZigZag = ({ image, title, desc, direction }) => {
         </Box>
       </Stack>
 
-      <Image src={image} width={"50%"}></Image>
+      <Image src={image} width={"50%"} duration={1500}></Image>
     </Stack>
   );
 };

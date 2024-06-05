@@ -9,7 +9,7 @@ const ProductInfo = ({ image, name, desc }) => {
       spacing={2}
       sx={{ justifyContent: "center", alignItems: "center" }}
     >
-      <Image src={image} width={"20%"}></Image>
+      <Image src={image} width={"20%"} duration={1500}></Image>
       <Stack spacing={3} sx={{ width: "60%" }}>
         <Box sx={{ color: "#375072", fontSize: "28px" }}>{name}</Box>
         <Box sx={{ fontSize: "20px", fontWeight: "300", lineHeight: "1.5" }}>

@@ -42,10 +42,10 @@ const Footer = () => {
           </Box>
         </Stack>
         <Stack justifyContent={"center"} spacing={1}>
-          <FooterButton>About Us</FooterButton>
-          <FooterButton>Our Products</FooterButton>
-          <FooterButton>Sustainibility</FooterButton>
-          <FooterButton>Contact Us</FooterButton>
+          <FooterButton href="/">About Us</FooterButton>
+          <FooterButton href="/products">Our Products</FooterButton>
+          <FooterButton href="/sustainability">Sustainability</FooterButton>
+          <FooterButton href="/contact">Contact Us</FooterButton>
         </Stack>
         <Stack justifyContent={"center"} sx={{ width: "20%" }}>
           <Stack

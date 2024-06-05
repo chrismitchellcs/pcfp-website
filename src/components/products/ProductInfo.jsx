@@ -1,10 +1,10 @@
-import { Box, Container, Stack } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import React from "react";
 
 const ProductInfo = () => {
   return (
     <Stack sx={{ pt: 5, alignItems: "center", bgcolor: "#e8e8e8" }}>
-      <Box sx={{ mt: 0, mb: 3, color: "#375072", fontSize: "34px" }}>
+      <Box sx={{ mt: 0, mb: 3, color: "#375072", fontSize: "32px" }}>
         OUR PRODUCTS
       </Box>
       <Box
@@ -13,10 +13,10 @@ const ProductInfo = () => {
           mt: 0,
           mb: 3,
           color: "black",
-          fontSize: "24px",
+          fontSize: "20px",
           fontWeight: "300",
           textAlign: "center",
-          lineHeight: "1.5",
+          lineHeight: "1.6",
         }}
       >
         We offer premium wholesale products straight from our farm. Our sweet

@@ -36,7 +36,7 @@ const InfoBox = ({ title, desc, link }) => {
           mb: 3,
           fontWeight: "300",
           fontSize: "20px",
-          lineHeight: "1.5",
+          lineHeight: "1.6",
         }}
       >
         {desc}
@@ -54,21 +54,21 @@ const InfoBoxes = () => {
         desc={
           "All of our blueberries, cranberries, and beets are produced in-house on our farm, ensuring top-quality from planting to packaging."
         }
-        link={""}
+        link={"/products"}
       ></InfoBox>
       <InfoBox
         title={"SUSTAINABILITY"}
         desc={
           "Our farm in Fraser Valley is committed to sustainability, producing everything in-house to ensure environmentally friendly practices and the highest quality produce."
         }
-        link={""}
+        link={"/sustainability"}
       ></InfoBox>
       <InfoBox
         title={"CONTACT US"}
         desc={
           "For inquiries about our wholesale products, please contact us to discuss your needs and how we can supply the freshest produce directly from our farm."
         }
-        link={""}
+        link={"/contact"}
       ></InfoBox>
     </Stack>
   );

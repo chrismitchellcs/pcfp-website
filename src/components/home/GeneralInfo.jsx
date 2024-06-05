@@ -8,7 +8,7 @@ const GeneralInfo = () => {
         sx={{
           //   color: "#0c25a6",
           color: "#375072",
-          fontSize: "40px",
+          fontSize: "36px",
           fontWeight: "400",
           textAlign: "center",
         }}
@@ -19,9 +19,9 @@ const GeneralInfo = () => {
         sx={{
           //   color: "#0c25a6",
           color: "black",
-          fontSize: "28px",
+          fontSize: "20px",
           fontWeight: "350",
-          lineHeight: "1.5",
+          lineHeight: "1.6",
           textAlign: "center",
           width: "60%",
         }}

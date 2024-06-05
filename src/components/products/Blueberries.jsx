@@ -5,16 +5,16 @@ import { Image } from "mui-image";
 const Blueberries = () => {
   return (
     <Stack sx={{ width: "100%", alignItems: "center", mb: 5 }}>
-      <Image src={"blueberrieslong.jpg"} width={"100%"}></Image>
-      <Box sx={{ color: "#375072", fontSize: "30px", m: 3 }}>BLUEBERRIES</Box>
+      <Image src={"blueberrieslong.jpg"} width={"100%"} duration={1500}></Image>
+      <Box sx={{ color: "#375072", fontSize: "28px", m: 3 }}>BLUEBERRIES</Box>
       <Box
         sx={{
           width: "80%",
           mb: 3,
-          fontSize: "22px",
+          fontSize: "20px",
           color: "black",
           fontWeight: "300",
-          lineHeight: "1.5",
+          lineHeight: "1.6",
           textAlign: "center",
         }}
       >
@@ -31,15 +31,15 @@ const Blueberries = () => {
         sx={{ width: "100%", justifyContent: "space-around" }}
       >
         <Stack spacing={3} sx={{ bgcolor: "#e8e8e8", width: "40%", p: 3 }}>
-          <Box sx={{ color: "#375072", fontSize: "30px" }}>
+          <Box sx={{ color: "#375072", fontSize: "28px" }}>
             FROZEN BLUEBERRIES
           </Box>
           <Box
             sx={{
               color: "black",
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "300",
-              lineHeight: "1.5",
+              lineHeight: "1.6",
             }}
           >
             During the summer harvest season, blueberries are cooled immediately
@@ -49,9 +49,9 @@ const Blueberries = () => {
           <Box
             sx={{
               color: "black",
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "300",
-              lineHeight: "1.5",
+              lineHeight: "1.6",
             }}
           >
             We grade according to both Canadian and USDA standards, offering
@@ -64,9 +64,9 @@ const Blueberries = () => {
               justifyContent: "space-around",
               textAlign: "center",
               color: "black",
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "450",
-              lineHeight: "1.5",
+              lineHeight: "1.6",
             }}
           >
             <Stack>
@@ -81,24 +81,24 @@ const Blueberries = () => {
           <Box
             sx={{
               color: "black",
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "300",
-              lineHeight: "1.5",
+              lineHeight: "1.6",
             }}
           >
             Blueberries are packed in 30lb corrugated cases.
           </Box>
         </Stack>
         <Stack spacing={3} sx={{ bgcolor: "#e8e8e8", width: "40%", p: 3 }}>
-          <Box sx={{ color: "#375072", fontSize: "30px" }}>
+          <Box sx={{ color: "#375072", fontSize: "28px" }}>
             SWEETENED & DRIED BLUEBERRIES
           </Box>
           <Box
             sx={{
               color: "black",
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "300",
-              lineHeight: "1.5",
+              lineHeight: "1.6",
             }}
           >
             These are made in-house, sugar-infused and dried into a tasty snack.
@@ -106,9 +106,9 @@ const Blueberries = () => {
           <Box
             sx={{
               color: "black",
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "300",
-              lineHeight: "1.5",
+              lineHeight: "1.6",
             }}
           >
             Sweetened & Dried Whole Blueberries are packed in 25lb corrugated

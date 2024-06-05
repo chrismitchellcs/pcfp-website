@@ -5,16 +5,16 @@ import { Image } from "mui-image";
 const Cranberries = () => {
   return (
     <Stack sx={{ width: "100%", alignItems: "center", mb: 5 }}>
-      <Image src={"cramberry.jpg"} width={"100%"}></Image>
-      <Box sx={{ color: "#375072", fontSize: "30px", m: 3 }}>CRANBERRIES</Box>
+      <Image src={"cramberry.jpg"} width={"100%"} duration={1500}></Image>
+      <Box sx={{ color: "#375072", fontSize: "28px", m: 3 }}>CRANBERRIES</Box>
       <Box
         sx={{
           width: "80%",
           mb: 3,
-          fontSize: "22px",
+          fontSize: "20px",
           color: "black",
           fontWeight: "300",
-          lineHeight: "1.5",
+          lineHeight: "1.6",
           textAlign: "center",
         }}
       >
@@ -30,15 +30,15 @@ const Cranberries = () => {
         sx={{ width: "100%", justifyContent: "space-around" }}
       >
         <Stack spacing={3} sx={{ bgcolor: "#e8e8e8", width: "40%", p: 3 }}>
-          <Box sx={{ color: "#375072", fontSize: "30px" }}>
+          <Box sx={{ color: "#375072", fontSize: "28px" }}>
             FROZEN CRANBERRIES
           </Box>
           <Box
             sx={{
               color: "black",
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "300",
-              lineHeight: "1.5",
+              lineHeight: "1.6",
             }}
           >
             Autumn is best when it comes to cranberries. The cool weather is
@@ -47,9 +47,9 @@ const Cranberries = () => {
           <Box
             sx={{
               color: "black",
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "300",
-              lineHeight: "1.5",
+              lineHeight: "1.6",
             }}
           >
             Within 36 hours, cranberries are harvested from our farms, washed,
@@ -59,24 +59,24 @@ const Cranberries = () => {
           <Box
             sx={{
               color: "black",
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "300",
-              lineHeight: "1.5",
+              lineHeight: "1.6",
             }}
           >
             Cranberries are packed in 25lb corrugated cases.
           </Box>
         </Stack>
         <Stack spacing={3} sx={{ bgcolor: "#e8e8e8", width: "40%", p: 3 }}>
-          <Box sx={{ color: "#375072", fontSize: "30px" }}>
+          <Box sx={{ color: "#375072", fontSize: "28px" }}>
             SWEETENED & DRIED CRANBERRIES
           </Box>
           <Box
             sx={{
               color: "black",
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "300",
-              lineHeight: "1.5",
+              lineHeight: "1.6",
             }}
           >
             These tasty pieces are sweetened, dried, and ready for anything.
@@ -84,9 +84,9 @@ const Cranberries = () => {
           <Box
             sx={{
               color: "black",
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "300",
-              lineHeight: "1.5",
+              lineHeight: "1.6",
             }}
           >
             Availiable as both sliced and whole.
@@ -94,9 +94,9 @@ const Cranberries = () => {
           <Box
             sx={{
               color: "black",
-              fontSize: "22px",
+              fontSize: "20px",
               fontWeight: "300",
-              lineHeight: "1.5",
+              lineHeight: "1.6",
             }}
           >
             Sweetened & Dried Sliced Cranberries are packed in 25lb corrugated

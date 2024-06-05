@@ -6,12 +6,12 @@ const Product = ({ src, name, desc }) => {
   return (
     <Stack alignItems={"center"} spacing={2} sx={{ textAlign: "center" }}>
       <Image src={src} width={300} style={{ borderRadius: "150px" }}></Image>
-      <Box sx={{ fontSize: "2vw" }}>{name}</Box>
+      <Box sx={{ fontSize: "28px" }}>{name}</Box>
       <Box
         sx={{
-          fontSize: "1.6vw",
+          fontSize: "20px",
           fontWeight: "300",
-          lineHeight: "1.5",
+          lineHeight: "1.6",
           width: "75%",
         }}
       >
