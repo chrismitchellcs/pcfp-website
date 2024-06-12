@@ -38,7 +38,7 @@ const NavButton = styled(Button)({
   backgroundColor: "transparent",
   color: "#375072",
   maxHeight: "40px",
-  fontSize: "1.2vw",
+  fontSize: "18px",
   fontWeight: "400",
 
   "&:hover": {
@@ -75,7 +75,7 @@ export default function HideAppBar(props) {
               <Box
                 sx={{
                   color: "#375072",
-                  fontSize: "5vw",
+                  fontSize: "70px",
                   fontWeight: "500",
                   fontFamily: "Ubuntu",
                   fontStyle: "italic",
