@@ -9,8 +9,10 @@ const ProductInfo = ({ image, name, desc }) => {
       spacing={2}
       sx={{ justifyContent: "center", alignItems: "center" }}
     >
-      <Image src={image} width={"20%"} duration={1500}></Image>
-      <Stack spacing={1} sx={{ width: "60%" }}>
+      <Box width={"20%"} display={{ xs: "none", sm: "none", md: "block" }}>
+        <Image src={image} width={"100%"} duration={1500}></Image>
+      </Box>
+      <Stack spacing={1} width={{ xs: "90%", sm: "90%", md: "60%" }}>
         <Box sx={{ color: "#375072", fontSize: "28px" }}>{name}</Box>
         <Box sx={{ fontSize: "20px", fontWeight: "300", lineHeight: "1.5" }}>
           {desc}

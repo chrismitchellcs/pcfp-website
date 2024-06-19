@@ -5,7 +5,9 @@ import React from "react";
 const Product = ({ src, name, desc }) => {
   return (
     <Stack alignItems={"center"} spacing={2} sx={{ textAlign: "center" }}>
-      <Image src={src} width={300} style={{ borderRadius: "150px" }}></Image>
+      <Box display={{ xs: "none", sm: "none" }}>
+        <Image src={src} width={300} style={{ borderRadius: "150px" }}></Image>
+      </Box>
       <Box sx={{ fontSize: "28px" }}>{name}</Box>
       <Box
         sx={{
