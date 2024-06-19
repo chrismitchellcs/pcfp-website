@@ -32,7 +32,7 @@ const Home = () => {
         image={"cranberrys-pcfp.jpeg"}
         title={"COMMITMENT TO QUALITY"}
         desc={
-          "Our passion for fruit farming goes beyond just growing. It's about creating a product that reflects our dedication to quality, our respect for nature, and our love for the Fraser Valley. Whether it's a fresh batch of blueberries or a perfectly dried cranberry, every product we offer is a testament to our hard work and commitment to excellence."
+          "Our passion for fruit farming goes beyond just growing. It's about creating a product that reflects our dedication to quality, our respect for nature, and our love for the Fraser Valley. Whether it's a fresh batch of blueberries or cranberries, every product we offer is a testament to our hard work and commitment to excellence."
         }
         direction={"row-reverse"}
       ></ZigZag>

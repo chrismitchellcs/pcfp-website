@@ -24,12 +24,13 @@ const InfoBox = () => {
       <Stack
         sx={{
           bgcolor: "#e8e8e8",
-          width: "40%",
+
           alignItems: "center",
           justifyContent: "center",
           p: 2,
           mb: 5,
         }}
+        width={{ xs: "80%", sm: "80%", md: "50%" }}
       >
         <Stack
           spacing={4}

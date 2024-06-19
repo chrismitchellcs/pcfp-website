@@ -9,7 +9,6 @@ const ProductInfo = () => {
       </Box>
       <Box
         sx={{
-          width: "60%",
           mt: 0,
           mb: 3,
           color: "black",
@@ -18,11 +17,12 @@ const ProductInfo = () => {
           textAlign: "center",
           lineHeight: "1.6",
         }}
+        width={{ xs: "80%", sm: "80%", md: "60%" }}
       >
         We offer premium wholesale products straight from our farm. Our sweet
-        blueberries and vibrant cranberries are handpicked at peak ripeness for
-        maximum freshness and quality. Enjoy our sustainably farmed produce and
-        taste the difference.
+        blueberries and cranberries are picked at peak ripeness for maximum
+        freshness and quality. Enjoy our sustainably farmed produce and taste
+        the difference.
       </Box>
     </Stack>
   );

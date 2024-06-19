@@ -5,9 +5,10 @@ import Toolbar from "@mui/material/Toolbar";
 
 import useScrollTrigger from "@mui/material/useScrollTrigger";
 import Box from "@mui/material/Box";
+import MenuIcon from "@mui/icons-material/Menu";
 
 import Slide from "@mui/material/Slide";
-import { Button, Stack, styled } from "@mui/material";
+import { Button, Menu, MenuItem, Stack, styled } from "@mui/material";
 
 function HideOnScroll(props) {
   const { children, window } = props;
@@ -50,6 +51,57 @@ const NavButton = styled(Button)({
   },
 });
 
+function BasicMenu() {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = (e) => {
+    setAnchorEl(null);
+    const page = e.target.id;
+    window.location.href = page;
+  };
+
+  return (
+    <div>
+      <Button
+        id="basic-button"
+        aria-controls={open ? "basic-menu" : undefined}
+        aria-haspopup="true"
+        aria-expanded={open ? "true" : undefined}
+        onClick={handleClick}
+        sx={{ color: "#375072" }}
+      >
+        <MenuIcon sx={{ fontSize: "30px" }}></MenuIcon>
+      </Button>
+      <Menu
+        id="basic-menu"
+        anchorEl={anchorEl}
+        open={open}
+        onClose={handleClose}
+        MenuListProps={{
+          "aria-labelledby": "basic-button",
+        }}
+      >
+        <MenuItem onClick={handleClose} id="/">
+          About Us
+        </MenuItem>
+        <MenuItem onClick={handleClose} id="products">
+          Our Products
+        </MenuItem>
+        <MenuItem onClick={handleClose} id="sustainability">
+          Sustainability
+        </MenuItem>
+        <MenuItem onClick={handleClose} id="contact">
+          Contact Us
+        </MenuItem>
+      </Menu>
+    </div>
+  );
+}
+
 export default function HideAppBar(props) {
   return (
     <React.Fragment>
@@ -62,10 +114,10 @@ export default function HideAppBar(props) {
               direction={"row"}
               justifyContent={"space-around"}
               alignItems={"center"}
-              display={{ xs: "none", sm: "flex" }}
+              display={{ xs: "none", sm: "none", md: "flex" }}
             >
               <Stack
-                sx={{ justifyContent: "space-between", width: "25%" }}
+                sx={{ justifyContent: "space-between", width: "30%" }}
                 direction={"row"}
               >
                 <NavButton href="/">About Us</NavButton>
@@ -84,12 +136,32 @@ export default function HideAppBar(props) {
                 PCFP
               </Box>
               <Stack
-                sx={{ justifyContent: "space-between", width: "25%" }}
+                sx={{ justifyContent: "space-between", width: "30%" }}
                 direction={"row"}
               >
                 <NavButton href="/sustainability">Sustainability</NavButton>
                 <NavButton href="/contact">Contact</NavButton>
               </Stack>
+            </Stack>
+            <Stack
+              width={"100%"}
+              direction={"row"}
+              justifyContent={"space-between"}
+              alignItems={"center"}
+              display={{ xs: "flex", sm: "flex", md: "none" }}
+            >
+              <Box
+                sx={{
+                  color: "#375072",
+                  fontSize: "70px",
+                  fontWeight: "500",
+                  fontFamily: "Ubuntu",
+                  fontStyle: "italic",
+                }}
+              >
+                PCFP
+              </Box>
+              <BasicMenu></BasicMenu>
             </Stack>
           </Toolbar>
         </AppBar>

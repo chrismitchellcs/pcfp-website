@@ -6,13 +6,14 @@ const InfoBox = ({ title, desc, link }) => {
     <Stack
       sx={{
         bgcolor: "#e8e8e8",
-        width: "28%",
+
         textAlign: "center",
         alignItems: "center",
         justifyContent: "space-between",
         p: 2,
         mb: 5,
       }}
+      width={{ xs: "80%", sm: "80%", md: "28%" }}
     >
       <Box sx={{ mt: 0, mb: 3, color: "#375072", fontSize: "28px" }}>
         {title}
@@ -34,7 +35,11 @@ const InfoBox = ({ title, desc, link }) => {
 
 const InfoBoxes = () => {
   return (
-    <Stack direction={"row"} justifyContent={"space-around"}>
+    <Stack
+      direction={{ xs: "column", sm: "column", md: "row" }}
+      justifyContent={"space-around"}
+      alignItems={{ xs: "center", sm: "center", md: "normal" }}
+    >
       <InfoBox
         title={"Locally Grown, Sustainably Managed"}
         desc={

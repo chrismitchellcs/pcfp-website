@@ -30,8 +30,12 @@ const Blueberries = () => {
         direction={"row"}
         sx={{ width: "100%", justifyContent: "space-around" }}
       >
-        <Stack spacing={3} sx={{ bgcolor: "#e8e8e8", width: "40%", p: 3 }}>
-          <Box sx={{ color: "#375072", fontSize: "28px" }}>
+        <Stack
+          spacing={3}
+          sx={{ bgcolor: "#e8e8e8", p: 3 }}
+          width={{ xs: "80%", sm: "80%", md: "60%" }}
+        >
+          <Box sx={{ color: "#375072", fontSize: "24px" }}>
             FROZEN BLUEBERRIES
           </Box>
           <Box
@@ -78,42 +82,6 @@ const Blueberries = () => {
               <Box>Juice</Box>
             </Stack>
           </Stack>
-          <Box
-            sx={{
-              color: "black",
-              fontSize: "20px",
-              fontWeight: "300",
-              lineHeight: "1.6",
-            }}
-          >
-            Blueberries are packed in 30lb corrugated cases.
-          </Box>
-        </Stack>
-        <Stack spacing={3} sx={{ bgcolor: "#e8e8e8", width: "40%", p: 3 }}>
-          <Box sx={{ color: "#375072", fontSize: "28px" }}>
-            SWEETENED & DRIED BLUEBERRIES
-          </Box>
-          <Box
-            sx={{
-              color: "black",
-              fontSize: "20px",
-              fontWeight: "300",
-              lineHeight: "1.6",
-            }}
-          >
-            These are made in-house, sugar-infused and dried into a tasty snack.
-          </Box>
-          <Box
-            sx={{
-              color: "black",
-              fontSize: "20px",
-              fontWeight: "300",
-              lineHeight: "1.6",
-            }}
-          >
-            Sweetened & Dried Whole Blueberries are packed in 25lb corrugated
-            cases.
-          </Box>
         </Stack>
       </Stack>
     </Stack>

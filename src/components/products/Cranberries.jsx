@@ -29,21 +29,15 @@ const Cranberries = () => {
         direction={"row"}
         sx={{ width: "100%", justifyContent: "space-around" }}
       >
-        <Stack spacing={3} sx={{ bgcolor: "#e8e8e8", width: "40%", p: 3 }}>
-          <Box sx={{ color: "#375072", fontSize: "28px" }}>
+        <Stack
+          spacing={2}
+          sx={{ bgcolor: "#e8e8e8", p: 3 }}
+          width={{ xs: "80%", sm: "80%", md: "60%" }}
+        >
+          <Box sx={{ color: "#375072", fontSize: "24px" }}>
             FROZEN CRANBERRIES
           </Box>
-          <Box
-            sx={{
-              color: "black",
-              fontSize: "20px",
-              fontWeight: "300",
-              lineHeight: "1.6",
-            }}
-          >
-            Autumn is best when it comes to cranberries. The cool weather is
-            what gives them their deep ruby hue.
-          </Box>
+
           <Box
             sx={{
               color: "black",
@@ -55,6 +49,9 @@ const Cranberries = () => {
             Within 36 hours, cranberries are harvested from our farms, washed,
             packed and frozen.
           </Box>
+          <Box sx={{ color: "#375072", fontSize: "24px" }}>
+            SWEETENED CRANBERRIES
+          </Box>
 
           <Box
             sx={{
@@ -64,13 +61,11 @@ const Cranberries = () => {
               lineHeight: "1.6",
             }}
           >
-            Cranberries are packed in 25lb corrugated cases.
+            Sweetened cranberries are tart berries coated in sugar for a sweet
+            and tangy flavor.
           </Box>
-        </Stack>
-        <Stack spacing={3} sx={{ bgcolor: "#e8e8e8", width: "40%", p: 3 }}>
-          <Box sx={{ color: "#375072", fontSize: "28px" }}>
-            SWEETENED & DRIED CRANBERRIES
-          </Box>
+          <Box sx={{ color: "#375072", fontSize: "24px" }}>CRANBERRY JUICE</Box>
+
           <Box
             sx={{
               color: "black",
@@ -79,8 +74,10 @@ const Cranberries = () => {
               lineHeight: "1.6",
             }}
           >
-            These tasty pieces are sweetened, dried, and ready for anything.
+            Available in both single-strength and concentrate forms.
           </Box>
+          <Box sx={{ color: "#375072", fontSize: "24px" }}>CRANBERRY SYRUP</Box>
+
           <Box
             sx={{
               color: "black",
@@ -89,8 +86,11 @@ const Cranberries = () => {
               lineHeight: "1.6",
             }}
           >
-            Availiable as both sliced and whole.
+            Our cranberry syrup is made from cooked cranberries and sugar,
+            creating a sweet, tangy flavor perfect for many dishes and drinks.
           </Box>
+          <Box sx={{ color: "#375072", fontSize: "24px" }}>CRANBERRY SEEDS</Box>
+
           <Box
             sx={{
               color: "black",
@@ -99,8 +99,8 @@ const Cranberries = () => {
               lineHeight: "1.6",
             }}
           >
-            Sweetened & Dried Sliced Cranberries are packed in 25lb corrugated
-            cases.
+            Discover the nutritious and versatile benefits of cranberry seeds,
+            ideal for adding a healthy crunch to your meals and snacks.
           </Box>
         </Stack>
       </Stack>

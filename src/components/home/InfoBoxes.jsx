@@ -17,9 +17,10 @@ const InfoButton = styled(Button)({
 const InfoBox = ({ title, desc, link }) => {
   return (
     <Stack
+      width={{ xs: "80%", sm: "80%", md: "22%" }}
       sx={{
         bgcolor: "#e8e8e8",
-        width: "22%",
+
         textAlign: "center",
         alignItems: "center",
         justifyContent: "space-between",
@@ -48,7 +49,12 @@ const InfoBox = ({ title, desc, link }) => {
 
 const InfoBoxes = () => {
   return (
-    <Stack direction={"row"} justifyContent={"space-around"}>
+    <Stack
+      width={"100%"}
+      direction={{ xs: "column", sm: "column", md: "row" }}
+      justifyContent={"space-around"}
+      alignItems={{ xs: "center", sm: "center", md: "normal" }}
+    >
       <InfoBox
         title={"OUR PRODUCTS"}
         desc={

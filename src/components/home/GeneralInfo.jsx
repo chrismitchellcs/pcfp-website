@@ -23,13 +23,13 @@ const GeneralInfo = () => {
           fontWeight: "350",
           lineHeight: "1.6",
           textAlign: "center",
-          width: "60%",
         }}
+        width={{ xs: "90%", sm: "90%", md: "60%" }}
       >
-        PCFP is located in the Fraser Valley, nestled beneath the beautiful
-        Golden Ears Mountains. We have been farming in the Vancouver area for
-        over 30 years, and we are proud to say all of our products come from our
-        own farms here in the Lower Mainland.
+        PCFP is a family-run business located in the Fraser Valley, nestled
+        beneath the beautiful Golden Ears Mountains. We have been farming in the
+        Vancouver area for over 30 years, and we are proud to say all of our
+        products come from our own farms here in the Lower Mainland.
       </Box>
     </Stack>
   );

@@ -17,20 +17,38 @@ const InfoButton = styled(Button)({
 const BerriImage = () => {
   return (
     <div>
-      <Box
-        component={"img"}
-        src="berrifresh.webp"
-        position={"absolute"}
-        sx={{
-          width: "500px",
+      <Box display={{ xs: "none", sm: "none", md: "block" }}>
+        <Box
+          component={"img"}
+          src="berrifresh.webp"
+          position={"absolute"}
+          sx={{
+            width: "500px",
 
-          textAlign: "center",
-        }}
-      ></Box>
-      <Box
-        bgcolor={"#375072"}
-        sx={{ width: "500px", height: "250px", borderRadius: "20px" }}
-      ></Box>
+            textAlign: "center",
+          }}
+        ></Box>
+        <Box
+          bgcolor={"#375072"}
+          sx={{ width: "500px", height: "250px", borderRadius: "20px" }}
+        ></Box>
+      </Box>
+      <Box display={{ xs: "block", sm: "block", md: "none" }}>
+        <Box
+          component={"img"}
+          src="berrifresh.webp"
+          position={"absolute"}
+          sx={{
+            width: "300px",
+
+            textAlign: "center",
+          }}
+        ></Box>
+        <Box
+          bgcolor={"#375072"}
+          sx={{ width: "300px", height: "150px", borderRadius: "20px" }}
+        ></Box>
+      </Box>
     </div>
   );
 };
@@ -38,8 +56,8 @@ const BerriImage = () => {
 const BerriFresh = () => {
   return (
     <Stack
-      direction={"row"}
-      spacing={10}
+      direction={{ xs: "column", sm: "column", md: "row" }}
+      spacing={{ xs: 2, sm: 2, md: 10 }}
       sx={{
         width: "100%",
         justifyContent: "center",
@@ -49,7 +67,13 @@ const BerriFresh = () => {
       }}
     >
       <BerriImage></BerriImage>
-      <Stack spacing={2} sx={{ width: "30%" }}>
+      <Stack
+        spacing={2}
+        width={{ xs: "80%", sm: "80%", md: "30%" }}
+        textAlign={"center"}
+        justifyContent={"center"}
+        alignItems={"center"}
+      >
         <Box sx={{ color: "#375072", fontSize: "28px" }}>Berri Fresh</Box>
         <Box
           sx={{

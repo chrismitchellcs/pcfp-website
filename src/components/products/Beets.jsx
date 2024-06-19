@@ -26,8 +26,12 @@ const Beets = () => {
         direction={"row"}
         sx={{ width: "100%", justifyContent: "space-around" }}
       >
-        <Stack spacing={3} sx={{ bgcolor: "#e8e8e8", width: "40%", p: 3 }}>
-          <Box sx={{ color: "#375072", fontSize: "28px" }}>BEET JUICE</Box>
+        <Stack
+          spacing={3}
+          sx={{ bgcolor: "#e8e8e8", p: 3 }}
+          width={{ xs: "80%", sm: "80%", md: "60%" }}
+        >
+          <Box sx={{ color: "#375072", fontSize: "24px" }}>BEET JUICE</Box>
           <Box
             sx={{
               color: "black",

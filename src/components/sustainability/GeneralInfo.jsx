@@ -23,8 +23,8 @@ const GeneralInfo = () => {
           fontWeight: "350",
           lineHeight: "1.5",
           textAlign: "center",
-          width: "60%",
         }}
+        width={{ xs: "80%", sm: "80%", md: "60%" }}
       >
         At Pacific Canadian Fruit Packers, we are more than just a farm; we are
         stewards of the land, proud of our heritage, and excited about our

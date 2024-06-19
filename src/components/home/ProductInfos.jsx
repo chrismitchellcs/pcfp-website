@@ -10,7 +10,7 @@ const ProductInfo = ({ image, name, desc }) => {
       sx={{ justifyContent: "center", alignItems: "center" }}
     >
       <Image src={image} width={"20%"} duration={1500}></Image>
-      <Stack spacing={3} sx={{ width: "60%" }}>
+      <Stack spacing={1} sx={{ width: "60%" }}>
         <Box sx={{ color: "#375072", fontSize: "28px" }}>{name}</Box>
         <Box sx={{ fontSize: "20px", fontWeight: "300", lineHeight: "1.5" }}>
           {desc}
@@ -22,19 +22,19 @@ const ProductInfo = ({ image, name, desc }) => {
 
 const ProductInfos = () => {
   return (
-    <Stack m={2}>
+    <Stack m={4} spacing={4}>
       <ProductInfo
         image={"blueberries.webp"}
         name={"BLUEBERRIES"}
         desc={
-          "Our farm's blueberry products are not only delicious but also packed with health benefits and produced sustainably. The rich, sweet flavor of our blueberries comes from being handpicked at peak ripeness, ensuring the freshest taste in every bite. Nutritionally, they are a powerhouse of antioxidants, vitamins, and fiber, promoting overall health and well-being."
+          "Our farm's blueberry products are not only delicious but also packed with health benefits and produced sustainably. The rich, sweet flavor of our blueberries comes from being picked at peak ripeness, ensuring the freshest taste in every bite. Nutritionally, they are a powerhouse of antioxidants, vitamins, and fiber, promoting overall health and well-being."
         }
       ></ProductInfo>
       <ProductInfo
         image={"cranberry.jpg"}
         name={"CRANBERRIES"}
         desc={
-          "Indulge in the superior taste and health benefits of our farm fresh cranberries. Our products include sweet and tangy dried cranberries, nutritious cranberry seeds, and tart, fresh cranberries, all harvested at their peak for maximum flavor and quality. Enjoy these versatile cranberries in your favorite recipes and support sustainable farming with every purchase."
+          "Indulge in the superior taste and health benefits of our farm fresh cranberries. Our products include nutritious cranberry seeds and tart, fresh cranberries, all harvested at their peak for maximum flavor and quality. Enjoy these versatile cranberries in your favorite recipes and support sustainable farming with every purchase."
         }
       ></ProductInfo>
       <ProductInfo

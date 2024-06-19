@@ -4,11 +4,12 @@ import React from "react";
 
 const ZigZag = ({ image, title, desc, direction }) => {
   return (
-    <Stack direction={direction} sx={{}}>
+    <Stack direction={{ xs: "column", sm: "column", md: direction }}>
       <Stack
         spacing={2}
+        pb={3}
+        width={{ xs: "100%", sm: "100%", md: "50%" }}
         sx={{
-          width: "50%",
           justifyContent: "center",
           alignItems: "center",
           textAlign: "center",
@@ -28,8 +29,12 @@ const ZigZag = ({ image, title, desc, direction }) => {
           </Box>
         </Box>
       </Stack>
-
-      <Image src={image} width={"50%"} duration={1500}></Image>
+      <Box width={"50%"} display={{ xs: "none", sm: "none", md: "block" }}>
+        <Image src={image} width={"100%"} duration={1500}></Image>
+      </Box>
+      <Box width={"100%"} display={{ xs: "block", sm: "block", md: "none" }}>
+        <Image src={image} width={"100%"} duration={1500}></Image>
+      </Box>
     </Stack>
   );
 };

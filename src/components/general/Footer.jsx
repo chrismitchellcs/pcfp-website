@@ -21,7 +21,8 @@ const Footer = () => {
   return (
     <Box sx={{ bgcolor: "#e8e8e8", p: 5 }}>
       <Stack
-        direction={"row"}
+        direction={{ xs: "column", sm: "column", md: "row" }}
+        spacing={5}
         justifyContent={"space-around"}
         alignItems={"center"}
       >
@@ -29,7 +30,7 @@ const Footer = () => {
           <Box
             sx={{
               color: "#375072",
-              fontSize: "5vw",
+              fontSize: "60px",
               fontWeight: "500",
               fontFamily: "Ubuntu",
               fontStyle: "italic",
@@ -41,13 +42,20 @@ const Footer = () => {
             Pacific Canada Fruit Packers
           </Box>
         </Stack>
-        <Stack justifyContent={"center"} spacing={1}>
+        <Stack
+          justifyContent={"center"}
+          spacing={1}
+          direction={{ xs: "column", sm: "row", md: "column" }}
+        >
           <FooterButton href="/">About Us</FooterButton>
           <FooterButton href="/products">Our Products</FooterButton>
           <FooterButton href="/sustainability">Sustainability</FooterButton>
           <FooterButton href="/contact">Contact Us</FooterButton>
         </Stack>
-        <Stack justifyContent={"center"} sx={{ width: "20%" }}>
+        <Stack
+          justifyContent={"center"}
+          width={{ xs: "80%", sm: "80%", md: "20%" }}
+        >
           <Stack
             spacing={2}
             sx={{ fontSize: "18px", fontWeight: "300", color: "#375072" }}

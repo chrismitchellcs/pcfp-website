@@ -23,8 +23,8 @@ const GeneralInfo = () => {
           fontWeight: "300",
           lineHeight: "1.6",
           textAlign: "center",
-          width: "60%",
         }}
+        width={{ xs: "80%", sm: "80%", md: "60%" }}
       >
         Contact Pacific Canadian Fruit Packers for inquiries regarding wholesale
         orders, partnerships, or more information about our premium blueberry
