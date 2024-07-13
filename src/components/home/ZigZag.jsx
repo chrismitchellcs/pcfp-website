@@ -21,7 +21,7 @@ const ZigZag = ({ image, title, desc, direction }) => {
           <Box
             sx={{
               fontSize: "20px",
-              fontWeight: "300",
+              fontWeight: "350",
               lineHeight: "1.6",
             }}
           >

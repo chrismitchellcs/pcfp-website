@@ -9,7 +9,7 @@ const FooterButton = styled(Button)({
   backgroundColor: "#375072",
   color: "white",
   fontSize: "16px",
-  fontWeight: "300",
+  fontWeight: "350",
 
   "&:hover": {
     backgroundColor: "#5c86bf",
@@ -38,8 +38,8 @@ const Footer = () => {
           >
             PCFP
           </Box>
-          <Box sx={{ fontSize: "20px", fontWeight: "300", color: "#375072" }}>
-            Pacific Canada Fruit Packers
+          <Box sx={{ fontSize: "20px", fontWeight: "400", color: "#375072" }}>
+            Pacific Canadian Fruit Packers
           </Box>
         </Stack>
         <Stack
@@ -58,7 +58,7 @@ const Footer = () => {
         >
           <Stack
             spacing={2}
-            sx={{ fontSize: "18px", fontWeight: "300", color: "#375072" }}
+            sx={{ fontSize: "18px", fontWeight: "350", color: "#375072" }}
           >
             <Stack direction={"row"} alignItems={"center"} spacing={1}>
               <LocationOnOutlinedIcon

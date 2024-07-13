@@ -14,7 +14,7 @@ const ProductInfo = ({ image, name, desc }) => {
       </Box>
       <Stack spacing={1} width={{ xs: "90%", sm: "90%", md: "60%" }}>
         <Box sx={{ color: "#375072", fontSize: "28px" }}>{name}</Box>
-        <Box sx={{ fontSize: "20px", fontWeight: "300", lineHeight: "1.5" }}>
+        <Box sx={{ fontSize: "20px", fontWeight: "350", lineHeight: "1.5" }}>
           {desc}
         </Box>
       </Stack>

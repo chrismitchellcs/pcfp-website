@@ -13,7 +13,7 @@ const ProductInfo = () => {
           mb: 3,
           color: "black",
           fontSize: "20px",
-          fontWeight: "300",
+          fontWeight: "350",
           textAlign: "center",
           lineHeight: "1.6",
         }}

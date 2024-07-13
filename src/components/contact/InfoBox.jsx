@@ -9,7 +9,7 @@ const InfoButton = styled(Button)({
   backgroundColor: "#375072",
   color: "white",
   fontSize: "18px",
-  fontWeight: "300",
+  fontWeight: "350",
   width: "50%",
 
   "&:hover": {
@@ -34,7 +34,7 @@ const InfoBox = () => {
       >
         <Stack
           spacing={4}
-          sx={{ fontSize: "20px", fontWeight: "300", color: "#375072" }}
+          sx={{ fontSize: "20px", fontWeight: "350", color: "#375072" }}
         >
           <Stack direction={"row"} alignItems={"center"} spacing={2}>
             <LocationOnOutlinedIcon

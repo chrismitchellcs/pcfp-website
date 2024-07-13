@@ -13,7 +13,7 @@ const Blueberries = () => {
           mb: 3,
           fontSize: "20px",
           color: "black",
-          fontWeight: "300",
+          fontWeight: "350",
           lineHeight: "1.6",
           textAlign: "center",
         }}
@@ -42,7 +42,7 @@ const Blueberries = () => {
             sx={{
               color: "black",
               fontSize: "20px",
-              fontWeight: "300",
+              fontWeight: "350",
               lineHeight: "1.6",
             }}
           >
@@ -54,7 +54,7 @@ const Blueberries = () => {
             sx={{
               color: "black",
               fontSize: "20px",
-              fontWeight: "300",
+              fontWeight: "350",
               lineHeight: "1.6",
             }}
           >

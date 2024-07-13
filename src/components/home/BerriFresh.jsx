@@ -79,7 +79,7 @@ const BerriFresh = () => {
           sx={{
             color: "black",
             fontSize: "20px",
-            fontWeight: "300",
+            fontWeight: "350",
             lineHeight: "1.6",
           }}
         >

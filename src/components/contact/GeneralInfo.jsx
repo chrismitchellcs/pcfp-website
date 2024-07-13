@@ -20,7 +20,7 @@ const GeneralInfo = () => {
           //   color: "#0c25a6",
           color: "black",
           fontSize: "20px",
-          fontWeight: "300",
+          fontWeight: "350",
           lineHeight: "1.6",
           textAlign: "center",
         }}

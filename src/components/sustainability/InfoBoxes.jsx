@@ -22,7 +22,7 @@ const InfoBox = ({ title, desc, link }) => {
         sx={{
           mt: 0,
           mb: 3,
-          fontWeight: "300",
+          fontWeight: "350",
           fontSize: "20px",
           lineHeight: "1.6",
         }}

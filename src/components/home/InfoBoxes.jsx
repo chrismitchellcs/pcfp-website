@@ -28,14 +28,22 @@ const InfoBox = ({ title, desc, link }) => {
         mb: 5,
       }}
     >
-      <Box sx={{ mt: 0, mb: 3, color: "#375072", fontSize: "28px" }}>
+      <Box
+        sx={{
+          mt: 0,
+          mb: 3,
+          color: "#375072",
+          fontSize: "28px",
+          fontWeight: "400px",
+        }}
+      >
         {title}
       </Box>
       <Box
         sx={{
           mt: 0,
           mb: 3,
-          fontWeight: "300",
+          fontWeight: "350",
           fontSize: "20px",
           lineHeight: "1.6",
         }}
