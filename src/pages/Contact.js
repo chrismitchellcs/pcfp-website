@@ -1,3 +1,4 @@
+import ContactForm from "components/contact/ContactForm";
 import GeneralInfo from "components/contact/GeneralInfo";
 import InfoBox from "components/contact/InfoBox";
 import TitleImage from "components/contact/TitleImage";
@@ -13,6 +14,7 @@ const Contact = () => {
       <TitleImage></TitleImage>
       <GeneralInfo></GeneralInfo>
       <InfoBox></InfoBox>
+      <ContactForm></ContactForm>
       <Footer></Footer>
     </div>
   );

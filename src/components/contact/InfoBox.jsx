@@ -27,7 +27,8 @@ const InfoBox = () => {
 
           alignItems: "center",
           justifyContent: "center",
-          p: 2,
+          pt: 2,
+          pb: 2,
           mb: 5,
         }}
         width={{ xs: "80%", sm: "80%", md: "50%" }}
@@ -35,6 +36,8 @@ const InfoBox = () => {
         <Stack
           spacing={4}
           sx={{ fontSize: "20px", fontWeight: "350", color: "#375072" }}
+          ml={5}
+          mr={5}
         >
           <Stack direction={"row"} alignItems={"center"} spacing={2}>
             <LocationOnOutlinedIcon
@@ -44,7 +47,7 @@ const InfoBox = () => {
           </Stack>
           <Stack direction={"row"} alignItems={"center"} spacing={2}>
             <EmailOutlinedIcon sx={{ fontSize: "30px" }}></EmailOutlinedIcon>
-            <Box>info@pcfp.ca</Box>
+            <Box>aflavin@pcfp.ca</Box>
           </Stack>
           <Stack direction={"row"} alignItems={"center"} spacing={2}>
             <LocalPhoneOutlinedIcon
